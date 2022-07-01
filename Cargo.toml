@@ -1,0 +1,17 @@
+[package]
+name = "orbital"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# grab all new updates during dev
+winit = "0.26.1"
+wgpu = "0.12.0"
+egui = "0.18.1"
+egui-wgpu = "0.18.0"
+egui-winit = "0.18.0"
+pollster = "0.2.5"
+egui_demo_lib = "0.18.0"
+bytemuck = "1.9.1"
